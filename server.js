@@ -10,7 +10,7 @@ app.get('/', (req, res) => res.send({ success: true }))
 
 app.use((req, res) => res.status(404).send({ error: 'Not found' }))
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 5000
 
 app.listen(port)
 
